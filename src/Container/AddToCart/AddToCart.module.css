@@ -1,0 +1,15 @@
+.parent{
+    width: 90%;
+    margin:0 auto;
+    height:calc(100vh - 200px);
+    overflow:scroll;
+
+}
+.heading{
+    text-align: center;
+    font-size: 1.15em;
+    margin-top:20px;
+    text-transform: uppercase;
+    transform: rotate(-4deg);
+    color:#c07f64;
+}

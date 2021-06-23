@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height:75px;
+    background:#faf4f5;
+}
+.main_grid{
+
+    display:grid;
+    width: 100%;
+    grid-template-columns: 25% auto 25%;
+
+}
+.nu{
+    width: 100%;
+    height:calc(100vh - 75px);
+    background: #faf4f5;
+}

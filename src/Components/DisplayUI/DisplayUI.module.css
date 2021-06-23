@@ -1,0 +1,22 @@
+.center{
+    text-align: center;
+}
+.img{
+    width:680px;
+    height:350px;
+    overflow: visible;
+    filter: grayscale(7%) sepia(60%) hue-rotate(316deg) saturate(352%) opacity(45%);
+-webkit-filter: grayscale(7%) sepia(60%) hue-rotate(316deg) saturate(352%) opacity(45%);
+-moz-filter: grayscale(7%) sepia(60%) hue-rotate(316deg) saturate(352%) opacity(45%);
+}
+.title{
+    display:inline-block;
+    background:linear-gradient(to bottom,#fed487,#ff9981);
+    padding:7px 15px;
+    position:absolute;
+    left:500px;
+    top:370px;
+    transform: rotate(-8deg);
+    text-transform: uppercase;
+    color:white;
+}
